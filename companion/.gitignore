@@ -1,0 +1,5 @@
+node_modules/
+mod/cp2077_companion/telemetry.json
+app/.dart_tool/
+app/build/
+app/pubspec.lock

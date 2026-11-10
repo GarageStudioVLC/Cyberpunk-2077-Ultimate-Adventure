@@ -1,0 +1,18 @@
+{
+  "name": "cp2077-companion-server",
+  "version": "1.0.0",
+  "description": "Servidor intermediario: recibe la telemetría del mod CET y la retransmite por WebSocket a la LAN",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node server.js --demo"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
